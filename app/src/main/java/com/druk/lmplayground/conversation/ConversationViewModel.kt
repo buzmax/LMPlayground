@@ -239,6 +239,7 @@ class ConversationViewModel(val app: Application) : AndroidViewModel(app) {
     }
 
     fun downloadModel(model: ModelInfo) {
+        // TODO: refactor
         val filename = model.remoteUri?.lastPathSegment ?: return
         val request = DownloadManager.Request(model.remoteUri)
         request.setTitle(filename)

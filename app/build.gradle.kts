@@ -115,6 +115,7 @@ dependencies {
     implementation(libs.androidx.lifecycle.runtime.compose)
     implementation(libs.androidx.navigation.fragment)
     implementation(libs.androidx.navigation.ui.ktx)
+    implementation(libs.androidx.work)
     implementation(libs.google.android.material)
 
     implementation(libs.androidx.compose.foundation.layout)
@@ -125,6 +126,9 @@ dependencies {
     implementation(libs.androidx.compose.ui.util)
     implementation(libs.androidx.compose.ui.viewbinding)
     implementation(libs.androidx.compose.ui.googlefonts)
+
+    implementation(libs.cronet.api)
+    implementation(libs.cronet.embedded)
 
     debugImplementation(libs.androidx.compose.ui.test.manifest)
 
